@@ -1,0 +1,1422 @@
+No.     Time           Source                Destination           Protocol Length Info
+      2 4.463888000    10.184.10.218         64.233.160.188        TCP      55     64852→5228 [ACK] Seq=1 Ack=1 Win=63 Len=1
+
+Frame 2: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 64.233.160.188 (64.233.160.188)
+Transmission Control Protocol, Src Port: 64852 (64852), Dst Port: 5228 (5228), Seq: 1, Ack: 1, Len: 1
+Data (1 byte)
+
+0000  00                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 4.489207000    64.233.160.188        10.184.10.218         TCP      66     5228→64852 [ACK] Seq=1 Ack=2 Win=361 Len=0 SLE=1 SRE=2
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 64.233.160.188 (64.233.160.188), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 5228 (5228), Dst Port: 64852 (64852), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 17.928532000   10.184.10.218         129.107.62.80         DNS      72     Standard query 0x992d  A www.ietf.org
+
+Frame 4: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 50238 (50238), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 5]
+    Transaction ID: 0x992d
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 17.931950000   129.107.62.80         10.184.10.218         DNS      459    Standard query response 0x992d  CNAME www.ietf.org.cdn.cloudflare.net A 104.20.1.85 A 104.20.0.85
+
+Frame 5: 459 bytes on wire (3672 bits), 459 bytes captured (3672 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 50238 (50238)
+Domain Name System (response)
+    [Request In: 4]
+    [Time: 0.003418000 seconds]
+    Transaction ID: 0x992d
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 5
+    Additional RRs: 10
+    Queries
+        www.ietf.org: type A, class IN
+    Answers
+        www.ietf.org: type CNAME, class IN, cname www.ietf.org.cdn.cloudflare.net
+        www.ietf.org.cdn.cloudflare.net: type A, class IN, addr 104.20.1.85
+        www.ietf.org.cdn.cloudflare.net: type A, class IN, addr 104.20.0.85
+    Authoritative nameservers
+        cloudflare.net: type NS, class IN, ns ns2.cloudflare.net
+        cloudflare.net: type NS, class IN, ns ns4.cloudflare.net
+        cloudflare.net: type NS, class IN, ns ns1.cloudflare.net
+        cloudflare.net: type NS, class IN, ns ns3.cloudflare.net
+        cloudflare.net: type NS, class IN, ns ns5.cloudflare.net
+    Additional records
+        ns1.cloudflare.net: type A, class IN, addr 173.245.59.31
+        ns1.cloudflare.net: type AAAA, class IN, addr 2400:cb00:2049:1::adf5:3b1f
+        ns2.cloudflare.net: type A, class IN, addr 198.41.222.131
+        ns2.cloudflare.net: type AAAA, class IN, addr 2400:cb00:2049:1::c629:de83
+        ns3.cloudflare.net: type A, class IN, addr 198.41.222.31
+        ns3.cloudflare.net: type AAAA, class IN, addr 2400:cb00:2049:1::c629:de1f
+        ns4.cloudflare.net: type A, class IN, addr 198.41.223.131
+        ns4.cloudflare.net: type AAAA, class IN, addr 2400:cb00:2049:1::c629:df83
+        ns5.cloudflare.net: type A, class IN, addr 198.41.223.31
+        ns5.cloudflare.net: type AAAA, class IN, addr 2400:cb00:2049:1::c629:df1f
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 17.933395000   10.184.10.218         104.20.1.85           TCP      66     64895→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 6: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64895 (64895), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 17.933618000   10.184.10.218         104.20.1.85           TCP      66     64896→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64896 (64896), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 17.933778000   10.184.10.218         104.20.1.85           TCP      66     64897→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 8: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64897 (64897), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 17.933953000   10.184.10.218         104.20.1.85           TCP      66     64898→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64898 (64898), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 17.934116000   10.184.10.218         104.20.1.85           TCP      66     64899→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 10: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64899 (64899), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 17.934270000   10.184.10.218         104.20.1.85           TCP      66     64900→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64900 (64900), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 17.937988000   104.20.1.85           10.184.10.218         TCP      66     80→64895 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 12: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64895 (64895), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 17.938130000   10.184.10.218         104.20.1.85           TCP      54     64895→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 13: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64895 (64895), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 17.946123000   104.20.1.85           10.184.10.218         TCP      66     80→64896 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64896 (64896), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 17.946245000   10.184.10.218         104.20.1.85           TCP      54     64896→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 15: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64896 (64896), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 17.951000000   104.20.1.85           10.184.10.218         TCP      66     80→64898 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64898 (64898), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 17.951001000   104.20.1.85           10.184.10.218         TCP      66     80→64897 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64897 (64897), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 17.951001000   104.20.1.85           10.184.10.218         TCP      66     80→64899 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64899 (64899), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 17.951204000   10.184.10.218         104.20.1.85           TCP      54     64898→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 19: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64898 (64898), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 17.951324000   10.184.10.218         104.20.1.85           TCP      54     64897→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 20: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64897 (64897), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 17.951385000   10.184.10.218         104.20.1.85           TCP      54     64899→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 21: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64899 (64899), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 17.951495000   104.20.1.85           10.184.10.218         TCP      66     80→64900 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1380 SACK_PERM=1 WS=1024
+
+Frame 22: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 104.20.1.85 (104.20.1.85), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 64900 (64900), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 17.951586000   10.184.10.218         104.20.1.85           TCP      54     64900→80 [ACK] Seq=1 Ack=1 Win=16384 Len=0
+
+Frame 23: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 104.20.1.85 (104.20.1.85)
+Transmission Control Protocol, Src Port: 64900 (64900), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 18.130294000   10.184.10.218         129.107.62.80         DNS      80     Standard query 0xee65  A datatracker.ietf.org
+
+Frame 24: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 51157 (51157), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 27]
+    Transaction ID: 0xee65
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        datatracker.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 18.130294000   10.184.10.218         129.107.62.80         DNS      73     Standard query 0x1cb6  A iaoc.ietf.org
+
+Frame 25: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 50879 (50879), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 34]
+    Transaction ID: 0x1cb6
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        iaoc.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 18.130836000   10.184.10.218         129.107.62.80         DNS      80     Standard query 0x36d0  A mailarchive.ietf.org
+
+Frame 26: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 62973 (62973), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 35]
+    Transaction ID: 0x36d0
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mailarchive.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 18.149951000   129.107.62.80         10.184.10.218         DNS      461    Standard query response 0xee65  A 4.31.198.44
+
+Frame 27: 461 bytes on wire (3688 bits), 461 bytes captured (3688 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 51157 (51157)
+Domain Name System (response)
+    [Request In: 24]
+    [Time: 0.019657000 seconds]
+    Transaction ID: 0xee65
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        datatracker.ietf.org: type A, class IN
+    Answers
+        datatracker.ietf.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        ietf.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns0.amsl.com
+        ietf.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+    Additional records
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 18.207560000   10.184.10.218         173.194.115.64        TLSv1.2  512    Application Data
+
+Frame 28: 512 bytes on wire (4096 bits), 512 bytes captured (4096 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 458
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 18.208021000   10.184.10.218         173.194.115.64        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 29: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 459, Ack: 1, Len: 1380
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 18.208043000   10.184.10.218         173.194.115.64        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 30: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 1839, Ack: 1, Len: 1380
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 18.208055000   10.184.10.218         173.194.115.64        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 31: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 3219, Ack: 1, Len: 1380
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 18.208074000   10.184.10.218         173.194.115.64        TLSv1.2  388    Application Data
+
+Frame 32: 388 bytes on wire (3104 bits), 388 bytes captured (3104 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 4599, Ack: 1, Len: 334
+[4 Reassembled TCP Segments (4474 bytes): #29(1380), #30(1380), #31(1380), #32(334)]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 18.215723000   10.184.10.218         129.107.62.80         DNS      74     Standard query 0x09fc  A open-stand.org
+
+Frame 33: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 60281 (60281), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 43]
+    Transaction ID: 0x09fc
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        open-stand.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 18.238277000   129.107.62.80         10.184.10.218         DNS      454    Standard query response 0x1cb6  A 4.31.198.44
+
+Frame 34: 454 bytes on wire (3632 bits), 454 bytes captured (3632 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 50879 (50879)
+Domain Name System (response)
+    [Request In: 25]
+    [Time: 0.107983000 seconds]
+    Transaction ID: 0x1cb6
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        iaoc.ietf.org: type A, class IN
+    Answers
+        iaoc.ietf.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        ietf.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns0.amsl.com
+        ietf.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+    Additional records
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 18.238278000   129.107.62.80         10.184.10.218         DNS      461    Standard query response 0x36d0  A 4.31.198.44
+
+Frame 35: 461 bytes on wire (3688 bits), 461 bytes captured (3688 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 62973 (62973)
+Domain Name System (response)
+    [Request In: 26]
+    [Time: 0.107442000 seconds]
+    Transaction ID: 0x36d0
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        mailarchive.ietf.org: type A, class IN
+    Answers
+        mailarchive.ietf.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        ietf.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns0.amsl.com
+        ietf.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+    Additional records
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 18.238279000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=1 Ack=459 Win=503 Len=0
+
+Frame 36: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 459, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 18.238280000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=1 Ack=1839 Win=525 Len=0
+
+Frame 37: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 1839, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 18.239282000   10.184.10.218         129.107.62.80         DNS      74     Standard query 0xe0a9  A rfc-editor.org
+
+Frame 38: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 61211 (61211), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 44]
+    Transaction ID: 0xe0a9
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        rfc-editor.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 18.239348000   10.184.10.218         129.107.62.80         DNS      74     Standard query 0xb081  A tools.ietf.org
+
+Frame 39: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 59983 (59983), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 45]
+    Transaction ID: 0xb081
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tools.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 18.259877000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=1 Ack=3219 Win=546 Len=0
+
+Frame 40: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 3219, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 18.259948000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=1 Ack=4599 Win=568 Len=0
+
+Frame 41: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 4599, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 18.264572000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=1 Ack=4933 Win=590 Len=0
+
+Frame 42: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 4933, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 18.264572000   129.107.62.80         10.184.10.218         DNS      172    Standard query response 0x09fc  A 50.116.53.77
+
+Frame 43: 172 bytes on wire (1376 bits), 172 bytes captured (1376 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 60281 (60281)
+Domain Name System (response)
+    [Request In: 33]
+    [Time: 0.048849000 seconds]
+    Transaction ID: 0x09fc
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 2
+    Additional RRs: 2
+    Queries
+        open-stand.org: type A, class IN
+    Answers
+        open-stand.org: type A, class IN, addr 50.116.53.77
+    Authoritative nameservers
+        open-stand.org: type NS, class IN, ns ns68.worldnic.com
+        open-stand.org: type NS, class IN, ns ns67.worldnic.com
+    Additional records
+        ns67.worldnic.com: type A, class IN, addr 207.204.40.134
+        ns68.worldnic.com: type A, class IN, addr 206.188.198.34
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 18.264573000   129.107.62.80         10.184.10.218         DNS      455    Standard query response 0xe0a9  A 4.31.198.49
+
+Frame 44: 455 bytes on wire (3640 bits), 455 bytes captured (3640 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 61211 (61211)
+Domain Name System (response)
+    [Request In: 38]
+    [Time: 0.025291000 seconds]
+    Transaction ID: 0xe0a9
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        rfc-editor.org: type A, class IN
+    Answers
+        rfc-editor.org: type A, class IN, addr 4.31.198.49
+    Authoritative nameservers
+        rfc-editor.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns0.amsl.com
+        rfc-editor.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+    Additional records
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 18.264573000   129.107.62.80         10.184.10.218         DNS      316    Standard query response 0xb081  A 64.170.98.42 A 209.208.19.222
+
+Frame 45: 316 bytes on wire (2528 bits), 316 bytes captured (2528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 59983 (59983)
+Domain Name System (response)
+    [Request In: 39]
+    [Time: 0.025225000 seconds]
+    Transaction ID: 0xb081
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 3
+    Additional RRs: 6
+    Queries
+        tools.ietf.org: type A, class IN
+    Answers
+        tools.ietf.org: type A, class IN, addr 64.170.98.42
+        tools.ietf.org: type A, class IN, addr 209.208.19.222
+    Authoritative nameservers
+        tools.ietf.org: type NS, class IN, ns zinfandel.levkowetz.com
+        tools.ietf.org: type NS, class IN, ns gamay.levkowetz.com
+        tools.ietf.org: type NS, class IN, ns merlot.levkowetz.com
+    Additional records
+        gamay.levkowetz.com: type A, class IN, addr 209.208.19.222
+        gamay.levkowetz.com: type AAAA, class IN, addr 2607:f170:8000:1500::de
+        merlot.levkowetz.com: type A, class IN, addr 194.146.105.14
+        merlot.levkowetz.com: type AAAA, class IN, addr 2a01:3f0:0:31::14
+        zinfandel.levkowetz.com: type A, class IN, addr 64.170.98.42
+        zinfandel.levkowetz.com: type AAAA, class IN, addr 2001:1890:123a::1:2a
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 18.265604000   10.184.10.218         129.107.62.80         DNS      76     Standard query 0xfab8  A trustee.ietf.org
+
+Frame 46: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 52639 (52639), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 49]
+    Transaction ID: 0xfab8
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        trustee.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 18.265764000   10.184.10.218         129.107.62.80         DNS      79     Standard query 0xe09a  A wiki.tools.ietf.org
+
+Frame 47: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 63863 (63863), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 70]
+    Transaction ID: 0xe09a
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        wiki.tools.ietf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 18.265906000   10.184.10.218         129.107.62.80         DNS      72     Standard query 0x4263  A www.amsl.com
+
+Frame 48: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 54559 (54559), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 51]
+    Transaction ID: 0x4263
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.amsl.com: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 18.270618000   129.107.62.80         10.184.10.218         DNS      457    Standard query response 0xfab8  A 4.31.198.44
+
+Frame 49: 457 bytes on wire (3656 bits), 457 bytes captured (3656 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 52639 (52639)
+Domain Name System (response)
+    [Request In: 46]
+    [Time: 0.005014000 seconds]
+    Transaction ID: 0xfab8
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        trustee.ietf.org: type A, class IN
+    Answers
+        trustee.ietf.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        ietf.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns0.amsl.com
+        ietf.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        ietf.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+    Additional records
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 18.271451000   10.184.10.218         129.107.62.80         DNS      77     Standard query 0xe4a6  A www.cafepress.com
+
+Frame 50: 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 55810 (55810), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 67]
+    Transaction ID: 0xe4a6
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.cafepress.com: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 18.276480000   129.107.62.80         10.184.10.218         DNS      224    Standard query response 0x4263  A 4.31.198.40
+
+Frame 51: 224 bytes on wire (1792 bits), 224 bytes captured (1792 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 54559 (54559)
+Domain Name System (response)
+    [Request In: 48]
+    [Time: 0.010574000 seconds]
+    Transaction ID: 0x4263
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 4
+    Additional RRs: 4
+    Queries
+        www.amsl.com: type A, class IN
+    Answers
+        www.amsl.com: type A, class IN, addr 4.31.198.40
+    Authoritative nameservers
+        amsl.com: type NS, class IN, ns ns0.amsl.com
+        amsl.com: type NS, class IN, ns ns4.amsl.com
+        amsl.com: type NS, class IN, ns ns1.amsl.com
+        amsl.com: type NS, class IN, ns ns5.amsl.com
+    Additional records
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.amsl.com: type A, class IN, addr 4.31.198.40
+        ns5.amsl.com: type A, class IN, addr 209.208.19.200
+        ns4.amsl.com: type A, class IN, addr 209.208.19.199
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 18.277284000   10.184.10.218         129.107.62.80         DNS      71     Standard query 0x34d9  A www.iab.org
+
+Frame 52: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 63791 (63791), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 63]
+    Transaction ID: 0x34d9
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.iab.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 18.281979000   173.194.115.64        10.184.10.218         TLSv1.2  508    Application Data
+
+Frame 53: 508 bytes on wire (4064 bits), 508 bytes captured (4064 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1, Ack: 4933, Len: 454
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 18.281980000   173.194.115.64        10.184.10.218         TLSv1.2  1406   Application Data
+
+Frame 54: 1406 bytes on wire (11248 bits), 1406 bytes captured (11248 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 455, Ack: 4933, Len: 1352
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 18.282081000   10.184.10.218         173.194.115.64        TCP      54     64893→443 [ACK] Seq=4933 Ack=1807 Win=258 Len=0
+
+Frame 55: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 4933, Ack: 1807, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 18.289196000   173.194.115.64        10.184.10.218         TLSv1.2  1434   Application Data
+
+Frame 56: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 1807, Ack: 4933, Len: 1380
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 18.294212000   173.194.115.64        10.184.10.218         TLSv1.2  1378   Application Data
+
+Frame 57: 1378 bytes on wire (11024 bits), 1378 bytes captured (11024 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 3187, Ack: 4933, Len: 1324
+[2 Reassembled TCP Segments (1352 bytes): #56(28), #57(1324)]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 18.294213000   173.194.115.64        10.184.10.218         TLSv1.2  423    Application Data
+
+Frame 58: 423 bytes on wire (3384 bits), 423 bytes captured (3384 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 4511, Ack: 4933, Len: 369
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 18.294278000   10.184.10.218         173.194.115.64        TCP      54     64893→443 [ACK] Seq=4933 Ack=4880 Win=258 Len=0
+
+Frame 59: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 4933, Ack: 4880, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 18.295860000   10.184.10.218         173.194.115.64        TLSv1.2  512    Application Data
+
+Frame 60: 512 bytes on wire (4096 bits), 512 bytes captured (4096 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 4933, Ack: 4880, Len: 458
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 18.296206000   10.184.10.218         173.194.115.64        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 61: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 5391, Ack: 4880, Len: 1380
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 18.296230000   10.184.10.218         173.194.115.64        TLSv1.2  394    Application Data
+
+Frame 62: 394 bytes on wire (3152 bits), 394 bytes captured (3152 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 6771, Ack: 4880, Len: 340
+[2 Reassembled TCP Segments (1720 bytes): #61(1380), #62(340)]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 18.300313000   129.107.62.80         10.184.10.218         DNS      452    Standard query response 0x34d9  A 4.31.198.44
+
+Frame 63: 452 bytes on wire (3616 bits), 452 bytes captured (3616 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 63791 (63791)
+Domain Name System (response)
+    [Request In: 52]
+    [Time: 0.023029000 seconds]
+    Transaction ID: 0x34d9
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        www.iab.org: type A, class IN
+    Answers
+        www.iab.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        iab.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        iab.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        iab.org: type NS, class IN, ns ns0.amsl.com
+        iab.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        iab.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        iab.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+    Additional records
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 18.301252000   10.184.10.218         129.107.62.80         DNS      72     Standard query 0xd41b  A www.iana.org
+
+Frame 64: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 52947 (52947), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 81]
+    Transaction ID: 0xd41b
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.iana.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 18.311511000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=4880 Ack=6771 Win=633 Len=0
+
+Frame 65: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 4880, Ack: 6771, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 18.334311000   10.184.10.218         10.184.15.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 66: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 10.184.15.255 (10.184.15.255)
+User Datagram Protocol, Src Port: 137 (137), Dst Port: 137 (137)
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 18.338045000   129.107.62.80         10.184.10.218         DNS      437    Standard query response 0xe4a6  CNAME cafepress.com.edgekey.net CNAME e1238.a.akamaiedge.net A 23.206.213.50
+
+Frame 67: 437 bytes on wire (3496 bits), 437 bytes captured (3496 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 55810 (55810)
+Domain Name System (response)
+    [Request In: 50]
+    [Time: 0.066594000 seconds]
+    Transaction ID: 0xe4a6
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 8
+    Additional RRs: 8
+    Queries
+        www.cafepress.com: type A, class IN
+    Answers
+        www.cafepress.com: type CNAME, class IN, cname cafepress.com.edgekey.net
+        cafepress.com.edgekey.net: type CNAME, class IN, cname e1238.a.akamaiedge.net
+        e1238.a.akamaiedge.net: type A, class IN, addr 23.206.213.50
+    Authoritative nameservers
+        a.akamaiedge.net: type NS, class IN, ns n1a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n5a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n0a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n6a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n4a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n2a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n3a.akamaiedge.net
+        a.akamaiedge.net: type NS, class IN, ns n7a.akamaiedge.net
+    Additional records
+        n6a.akamaiedge.net: type A, class IN, addr 65.172.31.214
+        n4a.akamaiedge.net: type A, class IN, addr 65.172.31.207
+        n0a.akamaiedge.net: type A, class IN, addr 88.221.81.195
+        n7a.akamaiedge.net: type A, class IN, addr 65.172.31.212
+        n2a.akamaiedge.net: type A, class IN, addr 65.172.31.201
+        n5a.akamaiedge.net: type A, class IN, addr 65.172.31.213
+        n1a.akamaiedge.net: type A, class IN, addr 96.17.145.61
+        n3a.akamaiedge.net: type A, class IN, addr 65.172.31.213
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 18.339935000   10.184.10.218         129.107.62.80         DNS      83     Standard query 0x525e  A www.internetsociety.org
+
+Frame 68: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 50476 (50476), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 69]
+    Transaction ID: 0x525e
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.internetsociety.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 18.362504000   129.107.62.80         10.184.10.218         DNS      499    Standard query response 0x525e  A 46.43.36.213
+
+Frame 69: 499 bytes on wire (3992 bits), 499 bytes captured (3992 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 50476 (50476)
+Domain Name System (response)
+    [Request In: 68]
+    [Time: 0.022569000 seconds]
+    Transaction ID: 0x525e
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 11
+    Queries
+        www.internetsociety.org: type A, class IN
+    Answers
+        www.internetsociety.org: type A, class IN, addr 46.43.36.213
+    Authoritative nameservers
+        internetsociety.org: type NS, class IN, ns ns-ext.nlnetlabs.nl
+        internetsociety.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        internetsociety.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        internetsociety.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        internetsociety.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        internetsociety.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+    Additional records
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns-ext.nlnetlabs.nl: type A, class IN, addr 185.49.140.62
+        ns-ext.nlnetlabs.nl: type AAAA, class IN, addr 2a04:b900::8:0:0:62
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 18.362507000   129.107.62.80         10.184.10.218         DNS      329    Standard query response 0xe09a  CNAME zinfandel.tools.ietf.org A 64.170.98.42
+
+Frame 70: 329 bytes on wire (2632 bits), 329 bytes captured (2632 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 63863 (63863)
+Domain Name System (response)
+    [Request In: 47]
+    [Time: 0.096743000 seconds]
+    Transaction ID: 0xe09a
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 3
+    Additional RRs: 6
+    Queries
+        wiki.tools.ietf.org: type A, class IN
+    Answers
+        wiki.tools.ietf.org: type CNAME, class IN, cname zinfandel.tools.ietf.org
+        zinfandel.tools.ietf.org: type A, class IN, addr 64.170.98.42
+    Authoritative nameservers
+        tools.ietf.org: type NS, class IN, ns gamay.levkowetz.com
+        tools.ietf.org: type NS, class IN, ns merlot.levkowetz.com
+        tools.ietf.org: type NS, class IN, ns zinfandel.levkowetz.com
+    Additional records
+        gamay.levkowetz.com: type A, class IN, addr 209.208.19.222
+        gamay.levkowetz.com: type AAAA, class IN, addr 2607:f170:8000:1500::de
+        merlot.levkowetz.com: type A, class IN, addr 194.146.105.14
+        merlot.levkowetz.com: type AAAA, class IN, addr 2a01:3f0:0:31::14
+        zinfandel.levkowetz.com: type A, class IN, addr 64.170.98.42
+        zinfandel.levkowetz.com: type AAAA, class IN, addr 2001:1890:123a::1:2a
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 18.363638000   173.194.115.64        10.184.10.218         TCP      54     443→64893 [ACK] Seq=4880 Ack=7111 Win=654 Len=0
+
+Frame 71: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 4880, Ack: 7111, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 18.364974000   10.184.10.218         129.107.62.80         DNS      72     Standard query 0x0111  A www.irtf.org
+
+Frame 72: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 56077 (56077), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 74]
+    Transaction ID: 0x0111
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.irtf.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 18.365348000   10.184.10.218         129.107.62.80         DNS      72     Standard query 0x01fe  A www.isoc.org
+
+Frame 73: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 55715 (55715), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 79]
+    Transaction ID: 0x01fe
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.isoc.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 18.370441000   129.107.62.80         10.184.10.218         DNS      453    Standard query response 0x0111  A 4.31.198.44
+
+Frame 74: 453 bytes on wire (3624 bits), 453 bytes captured (3624 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 56077 (56077)
+Domain Name System (response)
+    [Request In: 72]
+    [Time: 0.005467000 seconds]
+    Transaction ID: 0x0111
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        www.irtf.org: type A, class IN
+    Answers
+        www.irtf.org: type A, class IN, addr 4.31.198.44
+    Authoritative nameservers
+        irtf.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        irtf.org: type NS, class IN, ns ns0.amsl.com
+        irtf.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        irtf.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+        irtf.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        irtf.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+    Additional records
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 18.374003000   173.194.115.64        10.184.10.218         TLSv1.2  507    Application Data
+
+Frame 75: 507 bytes on wire (4056 bits), 507 bytes captured (4056 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 4880, Ack: 7111, Len: 453
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 18.374003000   173.194.115.64        10.184.10.218         TLSv1.2  612    Application Data
+
+Frame 76: 612 bytes on wire (4896 bits), 612 bytes captured (4896 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.64 (173.194.115.64), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64893 (64893), Seq: 5333, Ack: 7111, Len: 558
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 18.374135000   10.184.10.218         173.194.115.64        TCP      54     64893→443 [ACK] Seq=7111 Ack=5891 Win=254 Len=0
+
+Frame 77: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.64 (173.194.115.64)
+Transmission Control Protocol, Src Port: 64893 (64893), Dst Port: 443 (443), Seq: 7111, Ack: 5891, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 18.376631000   10.184.10.218         129.107.62.80         DNS      78     Standard query 0xfc03  A www.rfc-editor.org
+
+Frame 78: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 61182 (61182), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 80]
+    Transaction ID: 0xfc03
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.rfc-editor.org: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 18.381094000   129.107.62.80         10.184.10.218         DNS      429    Standard query response 0x01fe  A 212.110.167.157
+
+Frame 79: 429 bytes on wire (3432 bits), 429 bytes captured (3432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 55715 (55715)
+Domain Name System (response)
+    [Request In: 73]
+    [Time: 0.015746000 seconds]
+    Transaction ID: 0x01fe
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 5
+    Additional RRs: 10
+    Queries
+        www.isoc.org: type A, class IN
+    Answers
+        www.isoc.org: type A, class IN, addr 212.110.167.157
+    Authoritative nameservers
+        isoc.org: type NS, class IN, ns b0.dig.afilias-nst.info
+        isoc.org: type NS, class IN, ns c0.dig.afilias-nst.info
+        isoc.org: type NS, class IN, ns ns-ext.nlnetlabs.nl
+        isoc.org: type NS, class IN, ns a0.dig.afilias-nst.info
+        isoc.org: type NS, class IN, ns d0.dig.afilias-nst.info
+    Additional records
+        a0.dig.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        a0.dig.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+        ns-ext.nlnetlabs.nl: type A, class IN, addr 185.49.140.62
+        ns-ext.nlnetlabs.nl: type AAAA, class IN, addr 2a04:b900::8:0:0:62
+        d0.dig.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        d0.dig.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        b0.dig.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        b0.dig.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        c0.dig.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        c0.dig.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 18.385437000   129.107.62.80         10.184.10.218         DNS      459    Standard query response 0xfc03  A 4.31.198.49
+
+Frame 80: 459 bytes on wire (3672 bits), 459 bytes captured (3672 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 61182 (61182)
+Domain Name System (response)
+    [Request In: 78]
+    [Time: 0.008806000 seconds]
+    Transaction ID: 0xfc03
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 10
+    Queries
+        www.rfc-editor.org: type A, class IN
+    Answers
+        www.rfc-editor.org: type A, class IN, addr 4.31.198.49
+    Authoritative nameservers
+        rfc-editor.org: type NS, class IN, ns ns1.ams1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns0.amsl.com
+        rfc-editor.org: type NS, class IN, ns ns1.sea1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.mia1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.yyz1.afilias-nst.info
+        rfc-editor.org: type NS, class IN, ns ns1.hkg1.afilias-nst.info
+    Additional records
+        ns1.ams1.afilias-nst.info: type A, class IN, addr 65.22.6.79
+        ns1.yyz1.afilias-nst.info: type A, class IN, addr 65.22.9.1
+        ns1.yyz1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:9::1
+        ns0.amsl.com: type A, class IN, addr 64.170.98.2
+        ns1.sea1.afilias-nst.info: type A, class IN, addr 65.22.8.1
+        ns1.sea1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:8::1
+        ns1.mia1.afilias-nst.info: type A, class IN, addr 65.22.7.1
+        ns1.mia1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:7::1
+        ns1.hkg1.afilias-nst.info: type A, class IN, addr 65.22.6.1
+        ns1.hkg1.afilias-nst.info: type AAAA, class IN, addr 2a01:8840:6::1
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 18.403015000   129.107.62.80         10.184.10.218         DNS      320    Standard query response 0xd41b  CNAME ianawww.vip.icann.org A 192.0.32.8
+
+Frame 81: 320 bytes on wire (2560 bits), 320 bytes captured (2560 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 52947 (52947)
+Domain Name System (response)
+    [Request In: 64]
+    [Time: 0.101763000 seconds]
+    Transaction ID: 0xd41b
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 3
+    Additional RRs: 6
+    Queries
+        www.iana.org: type A, class IN
+    Answers
+        www.iana.org: type CNAME, class IN, cname ianawww.vip.icann.org
+        ianawww.vip.icann.org: type A, class IN, addr 192.0.32.8
+    Authoritative nameservers
+        vip.icann.org: type NS, class IN, ns gtm1.dc.icann.org
+        vip.icann.org: type NS, class IN, ns gtm1.mdr.icann.org
+        vip.icann.org: type NS, class IN, ns gtm1.lax.icann.org
+    Additional records
+        gtm1.dc.icann.org: type A, class IN, addr 192.0.47.252
+        gtm1.dc.icann.org: type AAAA, class IN, addr 2620:0:2830:296::252
+        gtm1.mdr.icann.org: type A, class IN, addr 192.0.36.252
+        gtm1.mdr.icann.org: type AAAA, class IN, addr 2620:0:2ed0:296::252
+        gtm1.lax.icann.org: type A, class IN, addr 192.0.32.252
+        gtm1.lax.icann.org: type AAAA, class IN, addr 2620:0:2d0:296::252
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 19.099004000   10.184.10.218         10.184.15.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 82: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 10.184.15.255 (10.184.15.255)
+User Datagram Protocol, Src Port: 137 (137), Dst Port: 137 (137)
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 19.851220000   10.184.10.218         10.184.15.255         NBNS     92     Name query NB WPAD<00>
+
+Frame 83: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 10.184.15.255 (10.184.15.255)
+User Datagram Protocol, Src Port: 137 (137), Dst Port: 137 (137)
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 20.466327000   10.184.10.218         173.194.115.88        SSL      55     Continuation Data
+
+Frame 84: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.88 (173.194.115.88)
+Transmission Control Protocol, Src Port: 64890 (64890), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 20.468652000   173.194.115.88        10.184.10.218         TCP      66     443→64890 [ACK] Seq=1 Ack=2 Win=361 Len=0 SLE=1 SRE=2
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.88 (173.194.115.88), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64890 (64890), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 20.566540000   10.184.10.218         173.194.115.88        SSL      55     Continuation Data
+
+Frame 86: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.88 (173.194.115.88)
+Transmission Control Protocol, Src Port: 64891 (64891), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 20.569060000   173.194.115.88        10.184.10.218         TCP      66     443→64891 [ACK] Seq=1 Ack=2 Win=361 Len=0 SLE=1 SRE=2
+
+Frame 87: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.88 (173.194.115.88), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64891 (64891), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 20.906456000   10.184.10.218         173.194.115.66        SSL      55     Continuation Data
+
+Frame 88: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 64889 (64889), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 20.909293000   173.194.115.66        10.184.10.218         TCP      66     443→64889 [ACK] Seq=1 Ack=2 Win=365 Len=0 SLE=1 SRE=2
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64889 (64889), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 21.120821000   10.184.10.218         173.194.115.82        SSL      55     Continuation Data
+
+Frame 90: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.82 (173.194.115.82)
+Transmission Control Protocol, Src Port: 64888 (64888), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 21.123408000   173.194.115.82        10.184.10.218         TCP      66     443→64888 [ACK] Seq=1 Ack=2 Win=372 Len=0 SLE=1 SRE=2
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.82 (173.194.115.82), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64888 (64888), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 21.180853000   10.184.10.218         173.194.115.82        SSL      55     Continuation Data
+
+Frame 92: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.82 (173.194.115.82)
+Transmission Control Protocol, Src Port: 64892 (64892), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 21.183610000   173.194.115.82        10.184.10.218         TCP      66     443→64892 [ACK] Seq=1 Ack=2 Win=392 Len=0 SLE=1 SRE=2
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.82 (173.194.115.82), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 64892 (64892), Seq: 1, Ack: 2, Len: 0

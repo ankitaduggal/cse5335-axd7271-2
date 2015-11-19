@@ -1,0 +1,1398 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.184.10.218         173.194.115.66        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 1: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1380
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 1380]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 1381    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 61
+    [Calculated window size: 61]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xa56b [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (1380 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000023000    10.184.10.218         173.194.115.66        TLSv1.2  329    Application Data
+
+Frame 2: 329 bytes on wire (2632 bits), 329 bytes captured (2632 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 1381, Ack: 1, Len: 275
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 275]
+    Sequence number: 1381    (relative sequence number)
+    [Next sequence number: 1656    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 61
+    [Calculated window size: 61]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x459d [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (275 bytes)
+[2 Reassembled TCP Segments (1655 bytes): #1(1380), #2(275)]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000298000    10.184.10.218         173.194.115.66        TCP      1434   [TCP segment of a reassembled PDU]
+
+Frame 3: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 1656, Ack: 1, Len: 1380
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 1380]
+    Sequence number: 1656    (relative sequence number)
+    [Next sequence number: 3036    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 61
+    [Calculated window size: 61]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x4092 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (1380 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000313000    10.184.10.218         173.194.115.66        TLSv1.2  811    Application Data
+
+Frame 4: 811 bytes on wire (6488 bits), 811 bytes captured (6488 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 3036, Ack: 1, Len: 757
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 757]
+    Sequence number: 3036    (relative sequence number)
+    [Next sequence number: 3793    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 61
+    [Calculated window size: 61]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xece1 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (757 bytes)
+[2 Reassembled TCP Segments (2137 bytes): #3(1380), #4(757)]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.006947000    173.194.115.66        10.184.10.218         TCP      54     443→65307 [ACK] Seq=1 Ack=1381 Win=439 Len=0
+
+Frame 5: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 1, Ack: 1381, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1381    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 439
+    [Calculated window size: 439]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x726b [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.007826000    173.194.115.66        10.184.10.218         TCP      54     443→65307 [ACK] Seq=1 Ack=1656 Win=460 Len=0
+
+Frame 6: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 1, Ack: 1656, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1656    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 460
+    [Calculated window size: 460]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x7143 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.007827000    173.194.115.66        10.184.10.218         TCP      54     443→65307 [ACK] Seq=1 Ack=3036 Win=482 Len=0
+
+Frame 7: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 1, Ack: 3036, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 3036    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 482
+    [Calculated window size: 482]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6bc9 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.008452000    173.194.115.66        10.184.10.218         TCP      54     443→65307 [ACK] Seq=1 Ack=3793 Win=503 Len=0
+
+Frame 8: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 1, Ack: 3793, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 3793    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 503
+    [Calculated window size: 503]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x68bf [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.029305000    173.194.115.66        10.184.10.218         TLSv1.2  824    Application Data
+
+Frame 9: 824 bytes on wire (6592 bits), 824 bytes captured (6592 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 1, Ack: 3793, Len: 770
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 770]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 771    (relative sequence number)]
+    Acknowledgment number: 3793    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 503
+    [Calculated window size: 503]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x2e35 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.039693000    173.194.115.66        10.184.10.218         TLSv1.2  145    Application Data
+
+Frame 10: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 771, Ack: 3793, Len: 91
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 91]
+    Sequence number: 771    (relative sequence number)
+    [Next sequence number: 862    (relative sequence number)]
+    Acknowledgment number: 3793    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 503
+    [Calculated window size: 503]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xe0b5 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.039794000    10.184.10.218         173.194.115.66        TCP      54     65307→443 [ACK] Seq=3793 Ack=862 Win=64 Len=0
+
+Frame 11: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 3793, Ack: 862, Len: 0
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 3793    (relative sequence number)
+    Acknowledgment number: 862    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6719 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.041901000    173.194.115.66        10.184.10.218         TLSv1.2  145    [TCP Retransmission] Application Data
+
+Frame 12: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.66 (173.194.115.66), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65307 (65307), Seq: 771, Ack: 3793, Len: 91
+    Source Port: 443 (443)
+    Destination Port: 65307 (65307)
+    [Stream index: 0]
+    [TCP Segment Len: 91]
+    Sequence number: 771    (relative sequence number)
+    [Next sequence number: 862    (relative sequence number)]
+    Acknowledgment number: 3793    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 503
+    [Calculated window size: 503]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xe0b5 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.041962000    10.184.10.218         173.194.115.66        TCP      66     [TCP Dup ACK 11#1] 65307→443 [ACK] Seq=3793 Ack=862 Win=64 Len=0 SLE=771 SRE=862
+
+Frame 13: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.66 (173.194.115.66)
+Transmission Control Protocol, Src Port: 65307 (65307), Dst Port: 443 (443), Seq: 3793, Ack: 862, Len: 0
+    Source Port: 65307 (65307)
+    Destination Port: 443 (443)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 3793    (relative sequence number)
+    Acknowledgment number: 862    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x91fc [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 4.951761000    10.184.10.218         129.107.62.80         DNS      86     Standard query 0x0001  PTR 80.62.107.129.in-addr.arpa
+
+Frame 14: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 57625 (57625), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 15]
+    Transaction ID: 0x0001
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        80.62.107.129.in-addr.arpa: type PTR, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 4.953923000    129.107.62.80         10.184.10.218         DNS      360    Standard query response 0x0001  PTR wookie.uta.edu
+
+Frame 15: 360 bytes on wire (2880 bits), 360 bytes captured (2880 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57625 (57625)
+Domain Name System (response)
+    [Request In: 14]
+    [Time: 0.002162000 seconds]
+    Transaction ID: 0x0001
+    Flags: 0x8580 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 7
+    Additional RRs: 7
+    Queries
+        80.62.107.129.in-addr.arpa: type PTR, class IN
+    Answers
+        80.62.107.129.in-addr.arpa: type PTR, class IN, wookie.uta.edu
+            Name: 80.62.107.129.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 16
+            Domain Name: wookie.uta.edu
+    Authoritative nameservers
+        107.129.in-addr.arpa: type NS, class IN, ns akuma.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 8
+            Name Server: akuma.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns ns1.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 6
+            Name Server: ns1.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns quasar.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 9
+            Name Server: quasar.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns wookie.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 2
+            Name Server: wookie.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns ns2.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 6
+            Name Server: ns2.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns phoenix.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 10
+            Name Server: phoenix.uta.edu
+        107.129.in-addr.arpa: type NS, class IN, ns diablo.uta.edu
+            Name: 107.129.in-addr.arpa
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 9
+            Name Server: diablo.uta.edu
+    Additional records
+        ns1.uta.edu: type A, class IN, addr 129.107.1.9
+            Name: ns1.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.1.9 (129.107.1.9)
+        diablo.uta.edu: type A, class IN, addr 129.107.56.180
+            Name: diablo.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.56.180 (129.107.56.180)
+        akuma.uta.edu: type A, class IN, addr 129.107.57.180
+            Name: akuma.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.57.180 (129.107.57.180)
+        quasar.uta.edu: type A, class IN, addr 129.107.45.80
+            Name: quasar.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.45.80 (129.107.45.80)
+        wookie.uta.edu: type A, class IN, addr 129.107.62.80
+            Name: wookie.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.62.80 (129.107.62.80)
+        phoenix.uta.edu: type A, class IN, addr 129.107.31.80
+            Name: phoenix.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.31.80 (129.107.31.80)
+        ns2.uta.edu: type A, class IN, addr 129.107.1.2
+            Name: ns2.uta.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 4
+            Address: 129.107.1.2 (129.107.1.2)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 4.955487000    10.184.10.218         129.107.62.80         DNS      79     Standard query 0x0002  A www.mit.edu.uta.edu
+
+Frame 16: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 57626 (57626), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 17]
+    Transaction ID: 0x0002
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu.uta.edu: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 4.960693000    129.107.62.80         10.184.10.218         DNS      124    Standard query response 0x0002 No such name
+
+Frame 17: 124 bytes on wire (992 bits), 124 bytes captured (992 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57626 (57626)
+Domain Name System (response)
+    [Request In: 16]
+    [Time: 0.005206000 seconds]
+    Transaction ID: 0x0002
+    Flags: 0x8583 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        www.mit.edu.uta.edu: type A, class IN
+    Authoritative nameservers
+        uta.edu: type SOA, class IN, mname ns1.uta.edu
+            Name: uta.edu
+            Type: SOA (Start Of a zone of Authority) (6)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 33
+            Primary name server: ns1.uta.edu
+            Responsible authority's mailbox: root.ns1.uta.edu
+            Serial Number: 2233474463
+            Refresh Interval: 600 (10 minutes)
+            Retry Interval: 900 (15 minutes)
+            Expire limit: 604800 (7 days)
+            Minimum TTL: 86400 (1 day)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 4.961086000    10.184.10.218         129.107.62.80         DNS      79     Standard query 0x0003  AAAA www.mit.edu.uta.edu
+
+Frame 18: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 57627 (57627), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 19]
+    Transaction ID: 0x0003
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu.uta.edu: type AAAA, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 4.963993000    129.107.62.80         10.184.10.218         DNS      124    Standard query response 0x0003 No such name
+
+Frame 19: 124 bytes on wire (992 bits), 124 bytes captured (992 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57627 (57627)
+Domain Name System (response)
+    [Request In: 18]
+    [Time: 0.002907000 seconds]
+    Transaction ID: 0x0003
+    Flags: 0x8583 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        www.mit.edu.uta.edu: type AAAA, class IN
+    Authoritative nameservers
+        uta.edu: type SOA, class IN, mname ns1.uta.edu
+            Name: uta.edu
+            Type: SOA (Start Of a zone of Authority) (6)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 33
+            Primary name server: ns1.uta.edu
+            Responsible authority's mailbox: root.ns1.uta.edu
+            Serial Number: 2233474463
+            Refresh Interval: 600 (10 minutes)
+            Retry Interval: 900 (15 minutes)
+            Expire limit: 604800 (7 days)
+            Minimum TTL: 86400 (1 day)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 4.964395000    10.184.10.218         129.107.62.80         DNS      71     Standard query 0x0004  A www.mit.edu
+
+Frame 20: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 57628 (57628), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 21]
+    Transaction ID: 0x0004
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type A, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 4.966207000    129.107.62.80         10.184.10.218         DNS      429    Standard query response 0x0004  CNAME www.mit.edu.edgekey.net CNAME e9566.b.akamaiedge.net A 23.207.46.93
+
+Frame 21: 429 bytes on wire (3432 bits), 429 bytes captured (3432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57628 (57628)
+Domain Name System (response)
+    [Request In: 20]
+    [Time: 0.001812000 seconds]
+    Transaction ID: 0x0004
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 8
+    Additional RRs: 8
+    Queries
+        www.mit.edu: type A, class IN
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+            Name: www.mit.edu
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 1297
+            Data length: 25
+            CNAME: www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.b.akamaiedge.net
+            Name: www.mit.edu.edgekey.net
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 57
+            Data length: 21
+            CNAME: e9566.b.akamaiedge.net
+        e9566.b.akamaiedge.net: type A, class IN, addr 23.207.46.93
+            Name: e9566.b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 17
+            Data length: 4
+            Address: 23.207.46.93 (23.207.46.93)
+    Authoritative nameservers
+        b.akamaiedge.net: type NS, class IN, ns n5b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n5b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n2b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n2b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n1b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n1b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n3b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n3b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n4b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n4b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n6b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n6b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n0b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n0b.akamaiedge.net
+        b.akamaiedge.net: type NS, class IN, ns n7b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 969
+            Data length: 6
+            Name Server: n7b.akamaiedge.net
+    Additional records
+        n3b.akamaiedge.net: type A, class IN, addr 88.221.81.195
+            Name: n3b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 2008
+            Data length: 4
+            Address: 88.221.81.195 (88.221.81.195)
+        n6b.akamaiedge.net: type A, class IN, addr 65.172.31.213
+            Name: n6b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 2008
+            Data length: 4
+            Address: 65.172.31.213 (65.172.31.213)
+        n2b.akamaiedge.net: type A, class IN, addr 88.221.81.192
+            Name: n2b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 6510
+            Data length: 4
+            Address: 88.221.81.192 (88.221.81.192)
+        n1b.akamaiedge.net: type A, class IN, addr 88.221.81.193
+            Name: n1b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 2138
+            Data length: 4
+            Address: 88.221.81.193 (88.221.81.193)
+        n4b.akamaiedge.net: type A, class IN, addr 96.17.145.22
+            Name: n4b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 2856
+            Data length: 4
+            Address: 96.17.145.22 (96.17.145.22)
+        n0b.akamaiedge.net: type A, class IN, addr 96.6.114.21
+            Name: n0b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 2008
+            Data length: 4
+            Address: 96.6.114.21 (96.6.114.21)
+        n7b.akamaiedge.net: type A, class IN, addr 65.172.31.213
+            Name: n7b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 3924
+            Data length: 4
+            Address: 65.172.31.213 (65.172.31.213)
+        n5b.akamaiedge.net: type A, class IN, addr 65.172.31.207
+            Name: n5b.akamaiedge.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 7404
+            Data length: 4
+            Address: 65.172.31.207 (65.172.31.207)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 4.967011000    10.184.10.218         129.107.62.80         DNS      71     Standard query 0x0005  AAAA www.mit.edu
+
+Frame 22: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 129.107.62.80 (129.107.62.80)
+User Datagram Protocol, Src Port: 57629 (57629), Dst Port: 53 (53)
+Domain Name System (query)
+    [Response In: 23]
+    Transaction ID: 0x0005
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type AAAA, class IN
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 4.970580000    129.107.62.80         10.184.10.218         DNS      202    Standard query response 0x0005  CNAME www.mit.edu.edgekey.net CNAME e9566.b.akamaiedge.net
+
+Frame 23: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 129.107.62.80 (129.107.62.80), Dst: 10.184.10.218 (10.184.10.218)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57629 (57629)
+Domain Name System (response)
+    [Request In: 22]
+    [Time: 0.003569000 seconds]
+    Transaction ID: 0x0005
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        www.mit.edu: type AAAA, class IN
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+            Name: www.mit.edu
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 1297
+            Data length: 25
+            CNAME: www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.b.akamaiedge.net
+            Name: www.mit.edu.edgekey.net
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 57
+            Data length: 21
+            CNAME: e9566.b.akamaiedge.net
+    Authoritative nameservers
+        b.akamaiedge.net: type SOA, class IN, mname n0b.akamaiedge.net
+            Name: b.akamaiedge.net
+            Type: SOA (Start Of a zone of Authority) (6)
+            Class: IN (0x0001)
+            Time to live: 497
+            Data length: 49
+            Primary name server: n0b.akamaiedge.net
+            Responsible authority's mailbox: hostmaster.akamai.com
+            Serial Number: 1417405769
+            Refresh Interval: 1000 (16 minutes, 40 seconds)
+            Retry Interval: 1000 (16 minutes, 40 seconds)
+            Expire limit: 1000 (16 minutes, 40 seconds)
+            Minimum TTL: 1800 (30 minutes)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 10.698780000   173.194.115.86        10.184.10.218         TLSv1.2  111    Application Data
+
+Frame 24: 111 bytes on wire (888 bits), 111 bytes captured (888 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.86 (173.194.115.86), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65250 (65250), Seq: 1, Ack: 1, Len: 57
+    Source Port: 443 (443)
+    Destination Port: 65250 (65250)
+    [Stream index: 1]
+    [TCP Segment Len: 57]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 58    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 1175
+    [Calculated window size: 1175]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6a44 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 10.708872000   10.184.10.218         173.194.115.86        TCP      54     65250→443 [ACK] Seq=1 Ack=58 Win=63 Len=0
+
+Frame 25: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.86 (173.194.115.86)
+Transmission Control Protocol, Src Port: 65250 (65250), Dst Port: 443 (443), Seq: 1, Ack: 58, Len: 0
+    Source Port: 65250 (65250)
+    Destination Port: 443 (443)
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 58    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 63
+    [Calculated window size: 63]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x51c8 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 14.880464000   10.184.10.218         64.233.168.125        TCP      55     [TCP segment of a reassembled PDU]
+
+Frame 27: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 64.233.168.125 (64.233.168.125)
+Transmission Control Protocol, Src Port: 65165 (65165), Dst Port: 5222 (5222), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65165 (65165)
+    Destination Port: 5222 (5222)
+    [Stream index: 2]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 257
+    [Calculated window size: 257]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xd06e [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+    TCP segment data (1 byte)
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 14.889807000   64.233.168.125        10.184.10.218         TCP      66     5222→65165 [ACK] Seq=1 Ack=2 Win=422 Len=0 SLE=1 SRE=2
+
+Frame 28: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 64.233.168.125 (64.233.168.125), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 5222 (5222), Dst Port: 65165 (65165), Seq: 1, Ack: 2, Len: 0
+    Source Port: 5222 (5222)
+    Destination Port: 65165 (65165)
+    [Stream index: 2]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 422
+    [Calculated window size: 422]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x1546 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 18.150909000   10.184.10.218         69.171.235.19         TLSv1.2  55     Continuation Data
+
+Frame 29: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 69.171.235.19 (69.171.235.19)
+Transmission Control Protocol, Src Port: 65225 (65225), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65225 (65225)
+    Destination Port: 443 (443)
+    [Stream index: 3]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 258
+    [Calculated window size: 258]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6fb4 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 18.204823000   69.171.235.19         10.184.10.218         TCP      54     443→65225 [ACK] Seq=1 Ack=2 Win=678 Len=0
+
+Frame 30: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 69.171.235.19 (69.171.235.19), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65225 (65225), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65225 (65225)
+    [Stream index: 3]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 678
+    [Calculated window size: 678]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6e10 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 18.553175000   64.233.168.189        10.184.10.218         TLSv1.2  110    Application Data
+
+Frame 31: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 64.233.168.189 (64.233.168.189), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65227 (65227), Seq: 1, Ack: 1, Len: 56
+    Source Port: 443 (443)
+    Destination Port: 65227 (65227)
+    [Stream index: 4]
+    [TCP Segment Len: 56]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 57    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 741
+    [Calculated window size: 741]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x64d8 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 18.610692000   10.184.10.218         64.233.168.189        TCP      54     65227→443 [ACK] Seq=1 Ack=57 Win=62 Len=0
+
+Frame 32: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 64.233.168.189 (64.233.168.189)
+Transmission Control Protocol, Src Port: 65227 (65227), Dst Port: 443 (443), Seq: 1, Ack: 57, Len: 0
+    Source Port: 65227 (65227)
+    Destination Port: 443 (443)
+    [Stream index: 4]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 57    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 62
+    [Calculated window size: 62]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x435b [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 18.620890000   10.184.10.218         64.233.160.188        TCP      55     64901→5228 [ACK] Seq=1 Ack=1 Win=258 Len=1
+
+Frame 33: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 64.233.160.188 (64.233.160.188)
+Transmission Control Protocol, Src Port: 64901 (64901), Dst Port: 5228 (5228), Seq: 1, Ack: 1, Len: 1
+    Source Port: 64901 (64901)
+    Destination Port: 5228 (5228)
+    [Stream index: 5]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 258
+    [Calculated window size: 258]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x8f35 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Data (1 byte)
+
+0000  00                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 18.630626000   64.233.160.188        10.184.10.218         TCP      66     5228→64901 [ACK] Seq=1 Ack=2 Win=361 Len=0 SLE=1 SRE=2
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 64.233.160.188 (64.233.160.188), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 5228 (5228), Dst Port: 64901 (64901), Seq: 1, Ack: 2, Len: 0
+    Source Port: 5228 (5228)
+    Destination Port: 64901 (64901)
+    [Stream index: 5]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 361
+    [Calculated window size: 361]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x284c [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 19.928140000   10.184.10.218         95.100.255.169        SSL      55     Continuation Data
+
+Frame 35: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 95.100.255.169 (95.100.255.169)
+Transmission Control Protocol, Src Port: 65301 (65301), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65301 (65301)
+    Destination Port: 443 (443)
+    [Stream index: 6]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x5133 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 19.931065000   10.184.10.218         95.100.255.169        SSL      55     Continuation Data
+
+Frame 36: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 95.100.255.169 (95.100.255.169)
+Transmission Control Protocol, Src Port: 65298 (65298), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65298 (65298)
+    Destination Port: 443 (443)
+    [Stream index: 7]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xc3fa [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 20.052938000   10.184.10.218         95.100.255.146        SSL      55     Continuation Data
+
+Frame 37: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 95.100.255.146 (95.100.255.146)
+Transmission Control Protocol, Src Port: 65268 (65268), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65268 (65268)
+    Destination Port: 443 (443)
+    [Stream index: 8]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x3930 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 20.054145000   95.100.255.169        10.184.10.218         TCP      66     443→65301 [ACK] Seq=1 Ack=2 Win=591 Len=0 SLE=1 SRE=2
+
+Frame 38: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 95.100.255.169 (95.100.255.169), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65301 (65301), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65301 (65301)
+    [Stream index: 6]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 591
+    [Calculated window size: 591]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x1d76 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 20.057381000   95.100.255.169        10.184.10.218         TCP      66     443→65298 [ACK] Seq=1 Ack=2 Win=627 Len=0 SLE=1 SRE=2
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 95.100.255.169 (95.100.255.169), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65298 (65298), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65298 (65298)
+    [Stream index: 7]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 627
+    [Calculated window size: 627]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x4d5e [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 20.180930000   95.100.255.146        10.184.10.218         TCP      66     443→65268 [ACK] Seq=1 Ack=2 Win=1114 Len=0 SLE=1 SRE=2
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 95.100.255.146 (95.100.255.146), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65268 (65268), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65268 (65268)
+    [Stream index: 8]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 1114
+    [Calculated window size: 1114]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xf340 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 20.217223000   10.184.10.218         173.194.115.86        SSL      55     Continuation Data
+
+Frame 41: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 173.194.115.86 (173.194.115.86)
+Transmission Control Protocol, Src Port: 65308 (65308), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65308 (65308)
+    Destination Port: 443 (443)
+    [Stream index: 9]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xf98e [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 20.224287000   173.194.115.86        10.184.10.218         TCP      66     443→65308 [ACK] Seq=1 Ack=2 Win=396 Len=0 SLE=1 SRE=2
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 173.194.115.86 (173.194.115.86), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65308 (65308), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65308 (65308)
+    [Stream index: 9]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 396
+    [Calculated window size: 396]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x7a12 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 20.231384000   10.184.10.218         95.100.255.169        SSL      55     Continuation Data
+
+Frame 43: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 95.100.255.169 (95.100.255.169)
+Transmission Control Protocol, Src Port: 65302 (65302), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65302 (65302)
+    Destination Port: 443 (443)
+    [Stream index: 10]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x0087 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 20.341472000   10.184.10.218         95.100.255.169        SSL      55     Continuation Data
+
+Frame 44: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 95.100.255.169 (95.100.255.169)
+Transmission Control Protocol, Src Port: 65300 (65300), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+    Source Port: 65300 (65300)
+    Destination Port: 443 (443)
+    [Stream index: 11]
+    [TCP Segment Len: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 2    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 64
+    [Calculated window size: 64]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x86fb [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 20.358138000   95.100.255.169        10.184.10.218         TCP      66     443→65302 [ACK] Seq=1 Ack=2 Win=592 Len=0 SLE=1 SRE=2
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 95.100.255.169 (95.100.255.169), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65302 (65302), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65302 (65302)
+    [Stream index: 10]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 592
+    [Calculated window size: 592]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x498b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 20.467401000   95.100.255.169        10.184.10.218         TCP      66     443→65300 [ACK] Seq=1 Ack=2 Win=592 Len=0 SLE=1 SRE=2
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 95.100.255.169 (95.100.255.169), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65300 (65300), Seq: 1, Ack: 2, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65300 (65300)
+    [Stream index: 11]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 592
+    [Calculated window size: 592]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x56ab [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 23.150630000   69.171.235.19         10.184.10.218         TLSv1.2  466    Application Data
+
+Frame 47: 466 bytes on wire (3728 bits), 466 bytes captured (3728 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 69.171.235.19 (69.171.235.19), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65225 (65225), Seq: 1, Ack: 2, Len: 412
+    Source Port: 443 (443)
+    Destination Port: 65225 (65225)
+    [Stream index: 3]
+    [TCP Segment Len: 412]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 413    (relative sequence number)]
+    Acknowledgment number: 2    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 678
+    [Calculated window size: 678]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xc99c [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 23.170656000   10.184.10.218         69.171.235.19         TCP      54     65225→443 [ACK] Seq=2 Ack=413 Win=257 Len=0
+
+Frame 48: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 69.171.235.19 (69.171.235.19)
+Transmission Control Protocol, Src Port: 65225 (65225), Dst Port: 443 (443), Seq: 2, Ack: 413, Len: 0
+    Source Port: 65225 (65225)
+    Destination Port: 443 (443)
+    [Stream index: 3]
+    [TCP Segment Len: 0]
+    Sequence number: 2    (relative sequence number)
+    Acknowledgment number: 413    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 257
+    [Calculated window size: 257]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6e19 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 23.176906000   10.184.10.218         69.171.235.19         TLSv1.2  1094   Application Data
+
+Frame 49: 1094 bytes on wire (8752 bits), 1094 bytes captured (8752 bits) on interface 0
+Ethernet II, Src: IntelCor_e9:54:8f (68:17:29:e9:54:8f), Dst: All-HSRP-routers_02 (00:00:0c:07:ac:02)
+Internet Protocol Version 4, Src: 10.184.10.218 (10.184.10.218), Dst: 69.171.235.19 (69.171.235.19)
+Transmission Control Protocol, Src Port: 65225 (65225), Dst Port: 443 (443), Seq: 2, Ack: 413, Len: 1040
+    Source Port: 65225 (65225)
+    Destination Port: 443 (443)
+    [Stream index: 3]
+    [TCP Segment Len: 1040]
+    Sequence number: 2    (relative sequence number)
+    [Next sequence number: 1042    (relative sequence number)]
+    Acknowledgment number: 413    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 257
+    [Calculated window size: 257]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xdae9 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 23.238237000   69.171.235.19         10.184.10.218         TCP      54     443→65225 [ACK] Seq=413 Ack=1042 Win=689 Len=0
+
+Frame 50: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco_f0:d4:80 (00:15:c7:f0:d4:80), Dst: IntelCor_e9:54:8f (68:17:29:e9:54:8f)
+Internet Protocol Version 4, Src: 69.171.235.19 (69.171.235.19), Dst: 10.184.10.218 (10.184.10.218)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 65225 (65225), Seq: 413, Ack: 1042, Len: 0
+    Source Port: 443 (443)
+    Destination Port: 65225 (65225)
+    [Stream index: 3]
+    [TCP Segment Len: 0]
+    Sequence number: 413    (relative sequence number)
+    Acknowledgment number: 1042    (relative ack number)
+    Header Length: 20 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 689
+    [Calculated window size: 689]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x6859 [validation disabled]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
